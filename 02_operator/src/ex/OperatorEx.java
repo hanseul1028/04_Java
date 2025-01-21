@@ -15,7 +15,7 @@ public class OperatorEx {
 	}
 		
 		/**
-		 * 테스크용 메서드2
+		 * 테스트용 메서드2
 		 */
 	public void test2() {
 		System.out.println("test2() 호출됨");
