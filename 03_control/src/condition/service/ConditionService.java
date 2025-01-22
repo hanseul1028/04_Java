@@ -131,24 +131,54 @@ public class ConditionService {
 			
 			System.out.print("이름 : ");
 			String name = sc.next();
-//			System.out.println(name);
+
 			
 			System.out.print("중간고사 점수(40%) : ");
 			int num1 = sc.nextInt();
-//			System.out.println(num1);
+
 			
 			System.out.print("기말고사 점수(50%) : ");
 			int num2 = sc.nextInt();
-//			System.out.println(num2);
+
 			
 			System.out.print("과제 점수(10%) : ");
 			int num3 = sc.nextInt();
-//			System.out.println(num3);
+
 			
 
 			double score = (num1*0.4 + num2*0.5 + num3*0.1);
 			
+			
+//			/*
+//			 * 다른 풀이
+//			 * */ 
+//			String result;
+//			
+//			// (int)score/10
+//			// - score를 먼저 int로 강제 형변환 후 10으로 나눔
+//			// -> 십의 자리 숫자만 남기는 식
+//			switch((int)score/10) { // switch문 () 내에는 정수/문자열 작성 가능
+//			
+//				// 하나의 case에 여러 기호를 ,기호를 이용해서 작성 가능 (java만)
+//			case 9, 10  : result = "A"; break;
+//			case 8  : result = "B"; break;
+//			case 7  : result = "C"; break;
+//			case 6  : result = "D"; break;
+//			defalut : result = "F";
+//			}
+//			
+//			// [일의 자리 생각]
+//			// 합계가 60점대 이상이면서 나머지가 5이상인 경우
+//			if(score == 100 || (score >= 60.0 %% score % 10 >= 5)) {
+//				result += "+";
+//			}
+//			// 결과 출력
+//			System.out.printf("\n%s의 최종점수 : %/.1f점\n, name, score");
+//			System.out.println("성적 : " + result);
+//			
 		
+			
+			
 			System.out.println();
 			System.out.println(name + "의 최종 점수 :" + score );
 					
@@ -184,10 +214,6 @@ public class ConditionService {
 		
 	}
 }
-
-
-
-
 
 
 

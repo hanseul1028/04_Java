@@ -22,7 +22,7 @@ public class ConditionRun {
 //		service.displayMenu();
 		
 		
-		service.method4();
+		service.method4(); // 성적판별기
 		
 	}
 	
