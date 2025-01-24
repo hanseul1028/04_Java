@@ -20,18 +20,19 @@ package basic;
 
 public class Car {
 	
-	// 필드(Field) == 멤버 변수 - 객체의 속성
-	String brand;
-	String model;
-	int year;
-
-	// 메서드 (Method) - 객체의 기능
-	public void start() {
-		System.out.println("시동을 켭니다");
-	}
-	public void stop() {
-		System.out.println("시동을 끕니다");
-	}
+		// 필드(Field) == 멤버 변수 - 객체의 속성
+		String brand;
+		String model;
+		int year;
+	
+		// 메서드 (Method) - 객체의 기능
+		public void start() {
+			System.out.println("시동을 켭니다");
+		}
+		
+		public void stop() {
+			System.out.println("시동을 끕니다");
+		}
 }
 
 
