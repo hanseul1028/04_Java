@@ -88,7 +88,7 @@ public class StudentDTO {
 		this.java = java;
 	}
 	
-	// Alt + Shift + s -> r : getter/setter 자동 생성 기능
+	// alt + Shift + s -> r : getter/setter 자동 생성 기능
 	
 	public String toString() {
 		// [학번] 이름 (성별)
