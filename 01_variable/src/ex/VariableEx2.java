@@ -82,25 +82,7 @@ public class VariableEx2 {
 		int result4 = (int)(a4 + b4); // a4 + b4 결과를 int 강제 형변환
 		
 		System.out.println("result4 : " + result4); // 123
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 		
 		
 	}
