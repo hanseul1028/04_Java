@@ -46,19 +46,6 @@ public class Korean {
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	/* 기본 생성자 */
 	public Korean() {} // 클래스에 생성자가 없을 경우 컴파일러가 추가함
 	
@@ -100,37 +87,3 @@ public class Korean {
 				,name, id, nationalCode);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

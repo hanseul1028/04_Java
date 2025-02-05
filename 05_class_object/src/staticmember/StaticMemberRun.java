@@ -56,43 +56,7 @@ public class StaticMemberRun {
 	// 객체(Object) : 구체적인 실제 객체
 	// 객체(instance) : 특정 클래스를 이용해서 만든 객체
 	 
-	
-	 
-	 
-	 
-	 
-	 
-	 
 	 
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
