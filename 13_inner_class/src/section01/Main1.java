@@ -19,6 +19,4 @@ public class Main1 {
 		outer.displayMessage();
 		
 	}
-	
-	
 }

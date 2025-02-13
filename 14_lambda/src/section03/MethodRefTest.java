@@ -25,7 +25,7 @@ public class MethodRefTest {
 		Function<String, Integer> strLength2 = String::length;
 		// -> String을 매개변수로 전달하면
 		// 	String.length() 메서드를 참조해서 실행 후
-		//	Integer 값을 반환
+		//	Integer 값을 반환0
 		
 		System.out.printf("%s의 길이 %d\n", str, strLength2.apply(str));
 		

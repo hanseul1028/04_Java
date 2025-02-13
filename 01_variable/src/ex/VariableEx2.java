@@ -6,7 +6,7 @@ public class VariableEx2 {
 	public static void main(String[] args) {
 		
 		/*  --- 컴퓨터 값 처리 원칙 ---
-		 * - 같은 자료형 끼리만 연산이 가능하고 
+		 * - 같은 자료형 끼리만 연산이 가능하고
 		 *   연산 결과도 같은 자료형만 반환한다
 		 *   
 		 *  --- 형변환(Type Casting)---

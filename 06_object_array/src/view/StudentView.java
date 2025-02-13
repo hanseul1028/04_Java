@@ -104,7 +104,7 @@ public class StudentView {
 		}
 	}
 	
-	/* 학생 추가 view 메서드
+	/* 1. 학생 추가 view 메서드
 	 * <pre>
 	 * 학번, 이름, 성별을 입력받아 StudentDTO 객체로 만들어서
 	 * StudentService.addStudent() 메서드에 전달

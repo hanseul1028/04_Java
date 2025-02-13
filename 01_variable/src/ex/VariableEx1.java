@@ -82,7 +82,7 @@ public class VariableEx1 {
 	
 	int intNum1 = 2147483647; // int 최대값
 	
-	// The literal 2147483648 of type int is out of range 
+	// The literal 2147483648 of type int is out of range
 	// -> int 범위 초과한 값은 대입 불가
 	// -> 정수형 중에서 범위가 더 큰 long 사용
 	
@@ -157,7 +157,7 @@ public class VariableEx1 {
 	 * 
 	 * - 리터럴 표기법 : ""
 	 * 
-	 * - String은 몇 글자가 작성될 지 모르기 때문에 기본적으로 쿠기가 정해져 있는 
+	 * - String은 몇 글자가 작성될 지 모르기 때문에 기본적으로 크기가 정해져 있는 
 	 * "기본 자료형"에 포함되지 않는다
 	 * 
 	 * - 대신 다른 곳에 문자열이 byte[] 모양으로 만들어지고 
