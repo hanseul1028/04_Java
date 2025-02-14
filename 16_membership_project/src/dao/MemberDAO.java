@@ -12,7 +12,7 @@ import dto.Member;
 public interface MemberDAO {
 
     // 인터페이스 메서드는
-    // 묵시적(암묵적)으로 public abstract 이다!!
+    // 묵시적(암묵적)으로 public abstract다!!
 
     /**
      * DAO 객체가 가지고 있는 memberList 반환
@@ -32,9 +32,9 @@ public interface MemberDAO {
 
     /**
      * 파일 저장
+     * - memberList를 MemberList.bin 파일로 출력
      */
     void saveFile() throws IOException;
 
 
 }
-

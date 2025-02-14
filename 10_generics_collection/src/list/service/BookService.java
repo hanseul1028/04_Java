@@ -124,7 +124,7 @@ public class BookService {
 		return null; // 책을 못찾은 경우
 }
 	
-	/** 7. 입력 받은 제목과 일치하는 재목을 가지는 bookList의 책을 제거
+	/** 7. 입력 받은 제목과 일치하는 제목을 가지는 bookList의 책을 제거
 	 * @param title : 입력 받은 제목
 	 */
 	public boolean removeBookTitle(String title) {

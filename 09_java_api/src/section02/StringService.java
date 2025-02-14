@@ -50,7 +50,7 @@ public class StringService {
 	 * 
 	 * - String 리터럴("")을 이용해 생성된 String 객체가 저장되는 heap 내부 영역
 	 * 
-	 * - String 리터럴을 이용해서 "동일한 값"에 String 객체를 생성하는 경우 
+	 * - String 리터럴을 이용해서 "동일한 값"에 String 객체를 생성하는 경우
 	 *   새로운 객체가 생성되지 않고 기존에 같은 값을 지닌 객체의 주소가 반환된다
 	 * 	 (메모리 효율 향상)
 	 * 

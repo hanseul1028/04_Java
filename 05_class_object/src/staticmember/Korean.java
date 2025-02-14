@@ -3,7 +3,7 @@ package staticmember;
 public class Korean {
 	
 	/* static (정적인, 고정된)
-	 * - 고정된 영역(static 메모리 영역)에 
+	 * - 고정된 영역(static 메모리 영역)에
 	 * 	 모든 객체가 공유할 멤버(필드/메서드)를 생성해서 공유
 	 * 
 	 * - static이 붙은 멤버는 [프로그램 실행 시] static 영역에 할당되고

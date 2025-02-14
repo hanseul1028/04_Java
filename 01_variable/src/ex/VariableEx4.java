@@ -50,7 +50,7 @@ public class VariableEx4 {
 		
 		int num = Integer.MAX_VALUE; // int 최대 값
 		
-		System.out.println("num : " + num);
+		System.out.println("num : " + num); 
 		
 		num = num + 1; // 오버플로우 발생
 		System.out.println("num + 1: " + num);

@@ -69,4 +69,7 @@ public interface MemberService {
      * @throws IOException
      */
     String deleteMember(Member target) throws IOException;
+
+
+
 }

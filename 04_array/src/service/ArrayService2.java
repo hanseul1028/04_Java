@@ -16,7 +16,7 @@ public class ArrayService2 {
 		// arr1에 저장된 주소를 copyArr1에 대입 == 얕은 복사
 		int[] copyArr1 = arr1; 
 		
-		// Arrays 클랙스 : 배열 관련 유용한 기능 제공 클래스
+		// Arrays 클래스 : 배열 관련 유용한 기능 제공 클래스
 		
 		// Arrays.toString(배열명) :
 		// 베열에 저장된 모든 값을 하나의 문자열로 반환

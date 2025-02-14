@@ -150,7 +150,7 @@ public class BookView {
 			String publisher = sc.nextLine();
 			
 			// 서비스 호출
-			boolean result 
+			boolean result
 				= service.addBook(new BookDTO(title, author, price, publisher));
 			
 			if(result) { // 추가 성공
