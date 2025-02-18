@@ -35,6 +35,4 @@ public interface MemberDAO {
      * - memberList를 MemberList.bin 파일로 출력
      */
     void saveFile() throws IOException;
-
-
 }

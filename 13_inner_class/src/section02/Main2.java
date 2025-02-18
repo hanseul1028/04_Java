@@ -18,8 +18,5 @@ public class Main2 {
 		// 참조 변수를 이용한 static 호출 권장 X
 		// inner.staticDisplay();
 		OuterClass2.StaticInnerClass.staticDisplay(); // 클래스명으로 호출 
-		
-		
-		
 	}
 }
