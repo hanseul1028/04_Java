@@ -12,7 +12,7 @@ import java.util.List;
 
 import dto.Member;
 
-// MemberDao 인터페이스를 상속 받아 구현
+// MemberDao 인터페이스를 상속 받아 구현한다
 public class MemberDAOImpl implements MemberDAO{
 
     // 회원 데이터가 저장될 폴더, 파일경로를 상수로 지정
@@ -41,7 +41,6 @@ public class MemberDAOImpl implements MemberDAO{
 
                 // 저장된 객체를 파일에서 읽어와 다운 캐스팅하여 memberList가 참조하게함
                 memberList = (ArrayList<Member>)ois.readObject();
-
             } 
             
             finally {
@@ -58,7 +57,6 @@ public class MemberDAOImpl implements MemberDAO{
             memberList = new ArrayList<Member>();
         }
     }
-
 
     // memberList 반환
     @Override
